@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px); 
+}
+
+.profile-image {
+    width: 60%; 
+    height: 95%;
+    object-fit: cover; 
+}
